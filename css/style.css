@@ -522,7 +522,7 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-650%);
+        transform: translateX(-750%);
     }
 }
     
@@ -536,7 +536,7 @@
     display: flex;
     align-items: center;
     white-space: nowrap;
-    animation: scroll 25s linear infinite;
+    animation: scroll 20s linear infinite;
     animation-delay: 2s;
 }
 }
