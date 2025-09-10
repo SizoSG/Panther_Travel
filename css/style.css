@@ -462,11 +462,13 @@
     align-items: center;
     white-space: nowrap;
     animation: scroll 30s linear infinite;
+    animation-delay: 3s;
 }
 
 .moving-content:hover {
     animation-play-state: paused;
 }
+
 
 .banner-item {
     display: flex;
@@ -495,13 +497,16 @@
     font-size: 1rem;
 }
 
+
+
+
 /* Animation keyframes */
 @keyframes scroll {
     0% {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 
@@ -519,7 +524,7 @@
 }
 
 
-/*----------------------------------------------------  Team------------------------------------------------------*/
+/*----------------------------------------------------  Papers------------------------------------------------------*/
 .papers,.papers:before,.papers:after {
   background-color:#fff;
   border:1px solid #ccc;
