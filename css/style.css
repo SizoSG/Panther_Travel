@@ -516,11 +516,29 @@
         margin-right: 2rem;
         font-size: 0.75rem; /* text-xs */
     }
+
+    @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-600%);
+    }
+}
     
     .banner-item .icon {
         width: 0.875rem;
         height: 0.875rem;
     }
+
+
+    .moving-content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    animation: scroll 27s linear infinite;
+    animation-delay: 2s;
+}
 }
 
 
